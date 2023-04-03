@@ -1,0 +1,258 @@
+body{
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+  margin: 0%;
+}
+.container{
+  width: 1351px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* header section */
+header{
+  padding: 20px 0px 10px 0px;
+  box-shadow: 0px 3px 10px #e7e6e6;
+}
+.header_logo{
+  width: 73px;
+  height: auto;
+  padding-left: 20px;
+}
+.logo_support{
+  color: #5f6368;
+  margin-left: 5px;
+  font-size: 22px;
+}
+.header_nav{
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+.header_nav a {
+  text-decoration: none;
+  color: #5f6368;
+  margin: 0px 15px;
+}
+.header_nav a:hover{
+  color: black;
+}
+.header_btn{
+  margin-left: 400px;
+  width: 450px;
+}
+.header_btn a{
+  text-decoration: none;
+  font-size: 18px;
+  margin: 10px 15px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.header_btn_one{
+  color: #1a73e8;
+}
+.header_btn_one:hover{
+  background-color: rgb(239, 236, 236);
+  color: #114c99;
+}
+.header_btn_two{
+  background-color: #1a73e8;
+  color: white;
+}
+.header_btn_two:hover{
+  background-color: #1459b4;
+}
+
+/* title section starts */
+.title{
+  margin-top: 50px     ;
+}
+.title_one{
+  width: 40%;
+  padding: 25px;
+}
+.title_one h1{
+  font-size: 75px;
+}
+.title_two{
+  width: 50%;
+}
+.title_two video{
+  width: 80%;
+  margin: 10%;
+}
+
+/* Support starts here!!!*/
+.support{
+  background-color: #f8f8f8;
+  margin-top: 35px;
+  border-top: 2px solid #cdcdcd;
+  border-bottom: 2px solid #cdcdcd;
+}
+.support_box{
+  width: 28%;
+  padding: 30px;
+  margin: 0 auto;
+}
+.support_box h3{
+  font-size: 25px;
+  font-weight: 400;
+}
+.support_box p{
+  font-weight: 200;
+}
+
+.support_underline{
+  width: 30px;
+  height: 3px;
+  border-radius: 10px;
+}
+
+.support_box_border{
+  border-left: 2px solid #cdcdcd;
+  border-right: 2px solid #cdcdcd;
+}
+.support_underline_color1{
+  background-color: #4285F4;
+}
+.support_underline_color2{
+  background-color: #F4B400;
+}
+.support_underline_color3{
+  background-color: #0F9D58;
+}
+/* features section */
+.features{
+  margin-top: 50px;
+}
+.features_img{
+  width: 17%;
+  margin: 0 auto;
+}
+.features_img img{
+  width: 100%;
+}
+.feature_content{
+  width: 60%;
+  margin: 0px auto;
+}
+.feature_content h2{
+  font-size: 55px;
+  text-align: center;
+  margin-top: 0px;
+}
+.feature_content p{
+  color: rgb(104,104,104);
+  font-size: 18px;
+  text-align: center;
+}
+.features_buttons{
+  margin-top: 100px;
+}
+.features_btn{
+  width: 33.3%;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 3px solid grey;
+}
+.features_btn a{
+  font-size: 16px;
+  text-decoration: none;
+  color: #5f6368;
+}
+.features_btn:hover{
+  border-bottom: 3px solid dodgerblue;
+  color: #202124;
+}
+.features_btn a:hover{
+  color: #202124;
+}
+.feature_text{
+  margin-top: 150px;
+  padding: 50px;
+  width: 30%;
+  font-size: 16px;
+  color: #202124;
+  /* letter-spacing: 0.05cm; */
+}
+.feature_video{
+  margin-top: 100px;
+  width: 60%;
+}
+.feature_video video{
+  width: 80%;
+  margin: 0px 10%;
+}
+
+/* account_content */
+.account{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.acc_content{
+  width: 35%;
+  margin: auto;
+}
+.acc_content h2{
+  text-align: center;
+  font-size: 40px;
+}
+.acc_content a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px 25px;
+  margin-top: 15px;
+  font-weight: 500;
+}
+.acc_content .login{
+  width: 50%;
+  margin: auto;
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 5px;
+}
+.acc_content .login:hover{
+  background-color: rgb(17, 89, 161);
+}
+.acc_content .login2:hover{
+  color: #1a73e8;
+}
+.footer{
+  padding: 30px 0px;
+  background-color: #f8f9fa;
+}
+.footer h3{
+  margin-left: 15px;
+  color: #5f6368;
+  font-size: 28px;
+  font-weight: 400;
+}
+.footer_nav{
+  padding: 33px 20px;
+  margin-left: 30px;
+}
+.footer_nav a{
+  text-decoration: none;
+  color: #5f6368;
+  margin: 5px 15px;
+  font-size: 18px;
+}
+.footer_nav a:hover{
+  color: black;
+}
+/* footer */
+.footer_help{
+  width: 30%;
+  padding: 35px 10px;
+  margin-left: 275px;
+  font-size: 21px;
+}
+.footer_help small{
+  color: #5f6368;
+  padding: 0px 10px;
+}
